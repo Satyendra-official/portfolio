@@ -1,12 +1,29 @@
-# React + Vite
+![Banner](public/banner.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 💼 Satyendra's Developer Portfolio
 
-Currently, two official plugins are available:
+Welcome to my personal portfolio site! I'm a passionate **Full Stack Web Developer** skilled in building modern, responsive web applications using:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🛠️ HTML, CSS, JavaScript, Tailwind
+- ⚛️ React, Node.js, Express, MongoDB
+- 💻 C, C++, Python, Java (basic)
 
-## Expanding the ESLint configuration
+## 🚀 Live Site
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔗 [View Portfolio](https://Satyendra-official.github.io/portfolio/)
+
+## 📌 Projects Featured
+
+- **Weather App** – API integration and real-time data handling
+- **Todo App** – React hooks & state management
+- More projects coming soon...
+
+## 📬 Contact
+
+- 📧 Email: [satyendray2306@gmail.com](mailto:satyendray2306@gmail.com)
+- 🐱 GitHub: [github.com/Satyendra-official](https://github.com/Satyendra-official)
+- 💼 LinkedIn: [linkedin.com/in/satyendra-kr-yadav](https://www.linkedin.com/in/satyendra-kr-yadav/)
+
+---
+
+Thanks for visiting! 🚀

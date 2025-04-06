@@ -6,7 +6,7 @@ const repoName = 'portfolio';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: `/${portfolio}/`,
+  base: `/${repoName}/`,
   plugins: [
     react(),
     tailwindcss(),

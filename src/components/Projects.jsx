@@ -17,19 +17,19 @@ const projects = [
   
   function Projects() {
     return (
-      <section id="projects" className="py-16 px-4 bg-white">
-        <h2 className="text-3xl font-bold text-center mb-10 text-gray-800">🚀 Projects</h2>
+      <section id="projects" className="py-16 px-4 dark:bg-gray-800 bg-white">
+        <h2 className="text-3xl font-bold text-center mb-10 text-gray-800 dark:text-white">🚀 Projects</h2>
         <div className="max-w-5xl mx-auto grid gap-8 md:grid-cols-2">
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-gray-100 rounded-xl shadow-md p-6 hover:shadow-lg transition"
+              className="bg-gray-100 dark:bg-gray-700 rounded-xl shadow-md p-6 hover:shadow-lg transition"
             >
-              <h3 className="text-xl font-semibold mb-2 text-blue-600">{project.name}</h3>
-              <p className="text-gray-700 mb-4">{project.description}</p>
+              <h3 className="text-xl font-semibold mb-2 text-blue-600 dark:text-blue-400">{project.name}</h3>
+              <p className="text-gray-700 dark:text-gray-300 mb-4">{project.description}</p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.tech.map((t, i) => (
-                  <span key={i} className="bg-blue-200 text-blue-800 text-xs px-2 py-1 rounded-full">
+                  <span key={i} className="bg-blue-200 text-blue-800 dark:text-blue-600 text-xs px-2 py-1 rounded-full">
                     {t}
                   </span>
                 ))}
@@ -38,7 +38,7 @@ const projects = [
                 <a
                   href={project.github}
                   target="_blank"
-                  className="text-sm text-blue-600 hover:underline"
+                  className="text-sm text-blue-600 dark:text-blue-400 hover:underline"
                 >
                   GitHub
                 </a>

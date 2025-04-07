@@ -1,8 +1,8 @@
 function Contact() {
     return (
-      <section id="contact" className="py-16 px-4 bg-gray-100 text-center">
-        <h2 className="text-3xl font-bold text-gray-800 mb-6">📬 Contact Me</h2>
-        <p className="text-gray-600 max-w-xl mx-auto mb-4">
+      <section id="contact" className="py-16 px-4 bg-gray-100 dark:bg-gray-800 text-center">
+        <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-6">📬 Contact Me</h2>
+        <p className="	text-gray-600 dark:text-gray-400 max-w-xl mx-auto mb-4">
           Have an opportunity or want to collaborate? I'm open to full-stack roles, freelance work, or just geeking out over code. Let's connect!
         </p>
         <a
@@ -11,7 +11,7 @@ function Contact() {
         >
           Say Hello
         </a>
-        <div className="mt-6 flex justify-center gap-6 text-blue-600 text-xl">
+        <div className="mt-6 flex justify-center gap-6 text-blue-600 dark:text-blue-400 text-xl">
           <a href="https://github.com/Satyendra-official" target="_blank" rel="noreferrer">GitHub</a>
           <a href="https://www.linkedin.com/in/satyendra-kr-yadav/" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>

@@ -7,7 +7,7 @@ const repoName = 'portfolio';
 // https://vite.dev/config/
 export default defineConfig({
   base: `/${repoName}/`,
-  darkMode: 'class', 
+  // darkMode: 'class', 
   plugins: [
     react(),
     tailwindcss(),

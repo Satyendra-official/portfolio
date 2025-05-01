@@ -8,7 +8,7 @@ const projects = [
   {
     name: "LifeOps",
     description: "A productivity and wellness dashboard for tracking habits, tasks, and reflections in one place.",
-    tech: ["React", "Tailwind", "Versel"],
+    tech: ["React", "Tailwind", "Vercel"],
     github: "https://github.com/Satyendra-official/lifeOps",
   },
   {
